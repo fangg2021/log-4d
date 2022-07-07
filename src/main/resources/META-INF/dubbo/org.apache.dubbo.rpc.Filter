@@ -1,0 +1,2 @@
+consumerFilter=test.log.filter.RpcConsumerFilter
+providerFilter=test.log.filter.RpcProviderFilter
