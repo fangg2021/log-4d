@@ -6,16 +6,15 @@
 引入此包需要配置的信息：
 1、pom.xml文件中配置
 	<build>
-		...
 		
 		<resources>
-			<resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.*</include>
-                </includes>
-            </resource>
-        </resources>
+		    <resource>
+			<directory>src/main/resources</directory>
+			<includes>
+			    <include>**/*.*</include>
+			</includes>
+		    </resource>
+		</resources>
 	</build>
 
 2、application.properties文件中配置
