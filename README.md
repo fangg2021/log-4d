@@ -1,12 +1,14 @@
-# log-4d
+
 需要在dubbo之间传递上下文信息（主要是处理log）
 
 对Dubbo3.0以上版本有效
 
 引入此包需要配置的信息：
+
 1、pom.xml文件中配置
+
 	<build>
-		
+		...
 		<resources>
 		    <resource>
 			<directory>src/main/resources</directory>
