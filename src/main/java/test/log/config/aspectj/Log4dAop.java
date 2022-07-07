@@ -106,7 +106,7 @@ public class Log4dAop {
 			JSONObject jsonObject = new JSONObject();
 			jsonObject.put("LOG_"+operateLogTO.getUserCode(), operateLogTO);
 			// 缓存当前接口对应的上下文信息
-			RpcCacheContext.setServiceInfo(jsonObject.toJSONString());
+			RpcCacheContext.setServiceInfo(jsonObject);
 		} catch (Exception e) {
 			logger.error("log4d aop info doing by before is exception：{}", e.getMessage());
 		} finally {
