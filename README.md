@@ -37,3 +37,7 @@
 传递的LOG信息如下：
 
 {"LOG_A6d424268":"{"function":"用户登录","paramsInfo":"{"fingerPrint":"test","loginIdentifier":"123456","userCode":"A6d424268","userType":1}","runInfo":"2022-07-17 10:46:25|192.168.31.131|com.test.service.impl.system.SysUserServiceImpl.userLogin()|用户登录|dubbo-test-provider","userCode":"A6d424268"}","input":"984","remote.application":"dubbo-test-consumer"}
+
+效果如：
+
+![log](https://user-images.githubusercontent.com/80429579/182769131-f2e1d5d3-e826-41fe-bb8d-357a75453e79.JPG)
