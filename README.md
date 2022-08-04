@@ -35,4 +35,5 @@
 如果哪个接口/方法需要记录（传递）上下文操作信息时，加上注解@LogAnnotation()，然后就可以通过RpcCacheContext（线程安全）获取dubbo服务之间传递的上下文信息了
 
 传递的LOG信息如下：
+
 {"LOG_A6d424268":"{"function":"用户登录","paramsInfo":"{"fingerPrint":"test","loginIdentifier":"123456","userCode":"A6d424268","userType":1}","runInfo":"2022-07-17 10:46:25|192.168.31.131|com.test.service.impl.system.SysUserServiceImpl.userLogin()|用户登录|dubbo-test-provider","userCode":"A6d424268"}","input":"984","remote.application":"dubbo-test-consumer"}
